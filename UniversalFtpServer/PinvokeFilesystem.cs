@@ -10,8 +10,6 @@ using FileAttributes = System.IO.FileAttributes;
 
 namespace UniversalFtpServer
 {
-
-
 	public class MonitoredFolderItem
 	{
 

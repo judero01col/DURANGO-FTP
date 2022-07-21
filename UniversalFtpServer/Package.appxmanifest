@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap mp rescap">
-  <Identity Name="1337Tunip3.DurangoFTP" Publisher="CN=t3" Version="1.4.4.0" />
-  <mp:PhoneIdentity PhoneProductId="0d6ba8b9-ac28-4459-8ba7-c3787210bc68" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="40750judero01.UniversalFtpServer" Publisher="CN=UniversalFtpServer" Version="1.5.4.0" />
+  <mp:PhoneIdentity PhoneProductId="e9b93937-394e-4169-ad50-5ab62697b668" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>Durango FTP</DisplayName>
-    <PublisherDisplayName>Tunip3</PublisherDisplayName>
+    <DisplayName>UniversalFtpServer</DisplayName>
+    <PublisherDisplayName>judero01</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="IngressFTP.App">
-      <uap:VisualElements DisplayName="Durango FTP" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="An FTP Server targeted at the Xbox UWP platform." BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="UniversalFtpServer" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="An FTP Server targeted at the Xbox UWP platform." BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
@@ -25,8 +25,7 @@
   <Capabilities>
     <Capability Name="privateNetworkClientServer" />
     <Capability Name="internetClientServer" />
-    <rescap:Capability Name="runFullTrust"/>
+	<rescap:Capability Name="runFullTrust" />
     <rescap:Capability Name="broadFileSystemAccess"/>
-    
   </Capabilities>
 </Package>
